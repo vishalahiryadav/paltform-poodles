@@ -1,0 +1,39 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    align-items: center;
+  }
+
+.btn {
+    border-radius: 5px;
+    background: #D3DB50;
+    border-color: #D3DB50;
+    padding: 13px 80px;
+    justify-content: center;
+    /* align-items: center; */
+    color: #FFF;
+    font-size: 28px;
+    float: right;
+}
+.section_1_1,.section_1_2{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #343030;
+}
+.section_1_2{
+    font-size: 25px;
+}
+.signup{
+    padding: 10px 60px;
+    border: 1px solid #162A51;
+    border-radius: 5px;
+    background-color: #162A51;
+}
+.dia{
+    width: 808.632px;
+height: 646.091px;
+flex-shrink: 0;
+}
