@@ -1,7 +1,7 @@
 import React from "react";
 function Header() {
   return (
-    <div className="container-fluid header-container">
+    <div className="container-fluid">
       <nav className="navbar border border-dlight border-3 px-3 m-4">
         <a className="navbar-brand" href="/">
           <svg
@@ -93,7 +93,7 @@ function Header() {
             />
           </svg>
         </a>
-        <button className="btn d-flex justify-content-end float-sm-end">Login</button>
+        <button className="btn text-white">Login</button>
       </nav>
     </div>
   );
