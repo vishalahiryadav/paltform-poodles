@@ -7,11 +7,14 @@ body {
     font-family: "Montserrat";
     text-align: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
+
 }
 
 /* Header */
+/* .header{
+    display: flex;
+    flex-wrap: nowrap;
+} */
 .btn {
     background: #D3DB50;
     border-color: #D3DB50;
@@ -79,7 +82,7 @@ body {
     border: 1px solid #3A383B;
 }
 
-.section_3 p {
+.section_3>p {
     color: #343030;
     font-family: Montserrat;
     font-size: 26px;
@@ -100,26 +103,34 @@ body {
 /* section-4 */
 
 .section_4 {
-    padding: 20px 8px;
-    
-    flex-wrap: wrap;
+    padding: 27px 21px;
     border: 1px solid #343030;
 }
 
-.section_4 p {
+.section_4>p {
     color: #343030;
     font-family: Montserrat;
     font-size: 26px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 45px;
 }
-.connection{
-    flex-wrap: wrap;
-    /* width:25px; */
 
+.connection {
+    color: #343030;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
 }
+
 .motive {
+    margin: 0;
     border-radius: 84px;
     border: 1px solid #343030;
     background: #162A51;
@@ -130,15 +141,165 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-right: 25px;
+
+}
+
+.hind {
+    display: flex;
+    /* background-color: #D3DB50; */
+}
+
+.connection h3 {
+    text-align: left;
+
+}
+
+.connection p {
+    width: 450px;
+    font-size: 23px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+/* section-5 */
+
+.section_5 {
+    padding: 20px 8px;
+    border: 1px solid #343030;
+    background-color: #D3DB50;
+    margin: 47px;
+}
+
+.section_5>h2 {
+    color: #343030;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    position: relative;
+    left: 15px;
+    top: 8px;
+}
+
+.section_5>p {
+
+    color: #3A383B;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_5>input {
+    display: flex;
+    width: 558px;
+    height: 56px;
+    padding: 10px;
+}
+
+.section_5>button {
+    display: flex;
+    padding: 12px 50px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #162A51;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #162A51;
+    padding: 15px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    /* justify-content: space-between; */
+}
+
+.footer_section_right>svg {
+    position: absolute;
+    width: 900px;
+    right: -100px;
+    bottom: 0px;
+
+}
+
+
+.footer_section_left>h1 {
+    /* position: relative;
+    top:35px;
+    left: 56px; */
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #FFF;
     
 }
-.connection h3,
-.connection p {
-   
-    color: red;
+
+.footer_section_left {
+    width: 50%;
+    text-align: left;
+}
+
+.footer_section_left>p {
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #FFF;
+    width: 340px;
+    display: inline-block;
+}
+
+.contact {
+    margin-top: 80px;
+    margin-left: 60px;
+    color: #FFF;
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
+}
+
+.footer_section_right {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    gap: 15px;
+}
+.footer_section_right>div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_section_right h4 {
+    color: #FFF;
+}
+
+.footer_section_right input {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FFF;
+    width: 385px;
+    height: 45px;
+    gap: 2px;
+}
+
+.footer_section_right button {
+
+    border-radius: 5px;
+    background: #162A51;
+    display: block;
+    color: #FFF;
+    width: 185px;
+    height: 40px;
+    font-size: 20px;
+  margin-left: 15px;
 }

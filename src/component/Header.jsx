@@ -1,8 +1,8 @@
 import React from "react";
 function Header() {
   return (
-    <div className="container-fluid">
-      <nav className="navbar border border-dlight border-3 px-3 m-4">
+    <div className="container-fluid ">
+      <nav className="navbar border border-dlight border-3 px-3 m-4 header">
         <a className="navbar-brand" href="/">
           <svg
             width="230"

@@ -1,7 +1,9 @@
 import React from "react";
 import Work from "../component/work";
+import Motive from "../component/Motive";
 import DataArray from "../component/DataArray";
 import MotiveArray from "../component/MotiveArray";
+import Footer from "../component/Footer";
 
 function LandingPage() {
   
@@ -10,7 +12,7 @@ function LandingPage() {
     <div>
       <div className="container-fluid d-flex">
         <div className="first_div col">
-          <p class="first_div_1">
+          <p className="first_div_1">
             Let’s Find Homes for Pets Together Join Our Adoption Platform
           </p>
           <p className="first_div_2">
@@ -49,7 +51,7 @@ function LandingPage() {
             <div className="connection d-flex">
        
        {MotiveArray.map(arr => (
-         <Work
+         <Motive
            key={arr.id}
            tag={arr.tag}
            heading={arr.heading}
@@ -58,6 +60,13 @@ function LandingPage() {
        ))}   
        </div>
       </div>
+      <div className="section_5 m-7">
+        <h2>JOIN OUR NEWSLETTER</h2>
+        <p>Discover the Extraordinary World of Pet Adoption: Find Love, Loyalty, and Cuteness with Our Platform</p>
+        <input type="email" />
+        <button>Join Us</button>
+      </div>
+      <Footer />
     </div>
   );
 }
