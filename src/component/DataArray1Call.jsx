@@ -1,6 +1,6 @@
 import React from "react";
 
-function Work(props) {
+function DataArray1Call(props) {
     return <div>
       {props.tag}
       <h3>{props.heading}</h3>
@@ -9,7 +9,7 @@ function Work(props) {
 
 }
 
-export default Work;
+export default DataArray1Call;
 
 
 

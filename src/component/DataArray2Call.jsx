@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Motive(props) {
+function DataArray2Call(props) {
   return <div className="hind">
   <div>{props.tag}</div>
   <div>
@@ -9,4 +9,4 @@ function Motive(props) {
   </div>
 }
 
-export default Motive;
+export default DataArray2Call;
