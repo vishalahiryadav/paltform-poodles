@@ -11,9 +11,9 @@ function LandingPage() {
     <div>
       <div className="container-fluid d-flex">
         <div className="first_div">
-          <p className="first_div_1">
+          <h1 className="first_div_1">
             Let’s Find Homes for Pets Together Join Our Adoption Platform
-          </p>
+          </h1>
           <p className="first_div_2">
             Pets are our loyal friends, showering us with love and affection.
             Now it’s our turn to help them find loving homes through our pet
@@ -32,7 +32,7 @@ function LandingPage() {
         a future where every pet has a loving home
       </div>
       <div className="section_3 d-flex m-5">
-        <p>Pet Adoption Made Easy: How Our Platform Connects NGOs and Adopters.</p>
+        <h3>Pet Adoption Made Easy: How Our Platform Connects NGOs and Adopters.</h3>
         <div className="adoption d-flex">
        
         {DataArray1.map(arr => (
@@ -46,7 +46,7 @@ function LandingPage() {
         </div>
       </div>
       <div className="section_4 m-5">
-            <p>Why Choose Our Pet Adoption Platform: Connecting NGOs and Adopters</p>
+            <h3>Why Choose Our Pet Adoption Platform: Connecting NGOs and Adopters</h3>
             <div className="connection d-flex">
        
        {DataArray2.map(arr => (
@@ -61,6 +61,13 @@ function LandingPage() {
       </div>
       <div className="section_5 m-7">
         <h2>JOIN OUR NEWSLETTER</h2>
+        <svg className="section_5_svg" xmlns="http://www.w3.org/2000/svg" width="66" height="53" viewBox="0 0 66 53" fill="none">
+  <path d="M39.1537 40.2761C39.4809 45.4211 36.6345 53.3415 25.1778 52.0714C19.32 50.5133 19.4077 47.1855 18.0281 45.2076C15.5127 41.6536 9.54286 43.1393 5.18711 41.9662C1.41324 40.9502 -0.692698 36.8099 0.206519 33.9508C1.55161 29.6742 8.21135 26.5044 14.0776 25.5257C35.6562 21.9263 37.3557 25.0376 39.1537 40.2761Z" fill="#F5F5F5"/>
+  <path d="M13.1718 23.1303C17.7509 23.529 22.1872 19.431 23.0805 13.9769C23.9737 8.52282 20.9856 3.77826 16.4062 3.37957C11.8272 2.98089 7.39093 7.07907 6.49773 12.5332C5.6045 17.9872 8.59254 22.7317 13.1718 23.1303Z" fill="#F5F5F5"/>
+  <path d="M29.9821 19.0987C34.3673 20.1396 39.8156 16.7502 42.151 11.528C44.4865 6.30592 42.825 1.22875 38.4401 0.187852C34.0548 -0.853029 28.6066 2.53654 26.2711 7.75865C23.9354 12.9807 25.5972 18.058 29.9821 19.0987Z" fill="#F5F5F5"/>
+  <path d="M42.9882 24.1966C46.3976 26.461 53.2738 25.0046 58.3467 20.9439C63.4198 16.8831 64.7683 11.7556 61.3588 9.49137C57.9494 7.22711 51.0732 8.68346 46.0003 12.7442C40.9275 16.8049 39.579 21.9325 42.9882 24.1966Z" fill="#F5F5F5"/>
+  <path d="M43.4481 39.0235C46.393 41.6316 53.3936 40.8068 59.0849 37.1811C64.7762 33.5554 67.0026 28.5019 64.058 25.8938C61.1134 23.2858 54.1124 24.1107 48.4211 27.7365C42.7298 31.362 40.5034 36.4155 43.4481 39.0235Z" fill="#F5F5F5"/>
+</svg>
         <p>Discover the Extraordinary World of Pet Adoption: Find Love, Loyalty, and Cuteness with Our Platform</p>
         <input type="email" />
         <button>Join Us</button>

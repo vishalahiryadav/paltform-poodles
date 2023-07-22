@@ -10,8 +10,8 @@ function Footer() {
           offer stress-free pet adoption services .
         </p>
         <div className="contact d-flex">
-          <h3>contact@poodles.in</h3>
-          <h3>BTH,Jaipur</h3>
+          <p>contact@poodles.in</p>
+          <p>BTH,Jaipur</p>
         </div>
       </div>
     
