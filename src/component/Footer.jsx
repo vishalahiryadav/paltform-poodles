@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer_img">
-      <img src={require("./a.svg").default} />
+      {/* <img src={require("./a.svg").default} /> */}
     <div className="footer d-flex ">
       <div className="footer_section_left">
         <h1>poodles</h1>
@@ -19,14 +19,15 @@ function Footer() {
     
     <div className="footer_section_right">
         <h4> Got Anything To share ? </h4>
-        <div>
+        <div className="input_container">
         <input className="border-0 border rounded"></input>
         <input className="border-0 border rounded"></input>
         <input className="border-0 border rounded"></input>
-        <button className="border-0 border rounded">Connect Now</button>
+        <button className="btn border-0 border rounded">Connect Now</button>
         </div>
       </div>
      </div>
+     <p className="copyright">© 2023 Poodles petcare. All rights reserved</p>
     </div>
   );
 }
