@@ -19,7 +19,7 @@ h4 {
   font-size: 2.6rem;
 }
 p {
-  font-size: 2rem;
+  font-size: 2.0rem;
 }
 
 /* Header */
@@ -27,45 +27,45 @@ p {
 
 .btn {
   background: #d3db50;
-  padding: 13px 80px;
+  padding: 1.3rem 8.0rem;
 }
 
 /* section_1 */
 .first_div {
   display: inline-flex;
-  padding: 115px 57px;
+  padding: 11.5rem 5.7rem;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  gap: 55px;
+  gap: 5.5rem;
 }
 
 .first_div_1 {
-  font-size: 3rem;
+  font-size: 3.0rem;
 }
 
 .first_div_3signup {
-  padding: 10px 60px;
-  width: 275px;
+  padding: 1.0rem 6.0rem;
+  width: 27.5rem;
   background-color: #162a51;
 }
 
 /* section-2 */
 .section_2 {
   display: inline-flex;
-  padding: 35px 194px;
-  gap: 10px;
+  padding: 3.5rem 19.4rem;
+  gap: 1.0rem;
   background: #162a51;
 }
 
 /* section-3 */
 
 .section_3 {
-  padding: 26px 59px;
-  justify-content: center;
-  gap: 61px 58px;
-  flex-wrap: wrap;
-  border: 1px solid #3a383b;
+  padding: 2.6rem 5.9rem;
+  /* justify-content: center; */
+  /* gap: 61px 58px; */
+  /* flex-wrap: wrap; */
+  border: 0.1rem solid #3a383b;
 }
 
 .section_3 > h3 {
@@ -79,84 +79,72 @@ p {
 /* section-4 */
 
 .section_4 {
-  padding: 27px 21px;
+  padding: 2.7rem 2.1rem;
 }
 
 .section_4 h3 {
   font-weight: 500;
-  margin-bottom: 45px;
-}
-
-.connection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  margin-bottom: 4.5rem;
 }
 
 .motive {
-  border-radius: 84px;
-  border: 1px solid #343030;
+  border-radius: 8.4rem;
+  border: 0.1rem solid #343030;
   background: #162a51;
   display: flex;
-  width: 111px;
-  height: 111px;
-  padding: 18px;
+  width: 11.1rem;
+  height: 11.1rem;
+  padding: 1.8rem;
   justify-content: center;
   align-items: center;
-  margin-right: 25px;
-  margin-top: 25px;
+  margin-right: 2.5rem;
+  margin-top: 2.5rem;
 }
 
-.img_text {
+.img_with_text {
   display: flex;
-}
-.head_text {
-  word-wrap: break-word;
 }
 .connection h4 {
   text-align: left;
 }
 
 .connection p {
-  max-width: 250px;
+  max-width: 25.0rem;
   text-align: left;
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 
 /* section-5 */
 
 .section_5 {
-  margin: 47px;
+  margin: 4.7rem;
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 12;
+  background-color: #d3db50;
 }
 .all{
-    position: absolute;
-    padding: 87px 250px;
-}
-.section_5 > img{
-    position: relative;
-}
+  padding: 4.3rem 0rem 4.3rem 25.0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+ }
 .section_5 h2 {
   font-size: 3.2rem;
   font-weight: 700;
-  /* display: inline-block; */
 }
 
 .section_5 input {
-  display: inline-block;
-  width: 558px;
-  height: 56px;
-  padding: 10px;
+  width: 55.8rem;
+  height: 5.6rem;
+  padding: 1.0rem;
 }
 
 .section_5 button {
   color: #fff;
-  padding: 9px 60px;
+  padding: 0.9rem 6.0rem;
   background-color: #162a51;
-  margin: 15px;
+  margin-left:0.5rem ;
 }
 
 /* Footer */
@@ -167,23 +155,20 @@ p {
     width: 100%;
 } */
 
-.footer_img {
-  background-image : url("./a.svg");
-  background-repeat: no-repeat;
-  background-size:100% 100%;
-  background-position:center;
-  background-attachment: fixed;
-}
+
 .footer {
-  padding: 15px;
+  background-color: #162a51;
+  padding: 1.5rem;
+  color: #fff;
+
  }
 .footer_section_left {
-  /* width: 50%; */
+  /* max-width: 50%; */
   text-align: left;
-  padding: 20px 250px 10px 35px;
+  padding: 2.0rem 25.0rem 1.0rem 3.5rem;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 4.0rem;
   /* position: absolute; */
 }
 .footer_section_left h1 {
@@ -201,42 +186,43 @@ p {
 .footer_section_right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 65px 15px 0px 0px;
-  /* margin-left: 370px; */
-  gap: 20px;
-
+  padding: 6.5rem 1.5rem 0rem 0rem;
+  /* margin-left: 47.0rem; */
+  gap: 2.0rem;
+  max-width: 50%;
 
 }
 .footer_section_right h4 {
   font-weight: 100;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   color: #fff;
 }
 .input_container{
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 385px;
-  height: 45px;
-  gap: 10px;
+  gap: 1.5rem;
+}
+.input_container > input{
+  width: 38.5rem;
+  height: 4.5rem;
 }
 
 .footer_section_right button {
   background: #162a51;
   color: #fff;
-  width: 185px;
+  width: 18.5rem;
   font-size: 2rem;
-  margin-left: 100px;
+  margin-left: 10.0rem;
   display: flex;
   justify-content: center;
   align-items: center;
- padding: 5px;
+ padding: 0.5rem;
 }
 .copyright{
   color: #fff;
+  background-color: #162a51;
   font-size: 1.6rem;
-  margin-top: 104px;
+  /* margin-top: 10.4rem; */
   font-weight: 100;
 
 }

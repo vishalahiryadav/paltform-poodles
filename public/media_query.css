@@ -1,0 +1,166 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background: turquoise;
+    }
+
+    /* sectrion 1 */
+    .first_div {
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+    }
+
+    .second_div_img {
+        border: 1px solid black;
+    }
+
+    /* section 2 */
+    .section_2 {
+        padding: 50px 20px;
+        margin-right: 0px;
+    }
+
+    /* section 3 */
+    .adoption {
+        padding: 12px;
+    }
+
+    /* section 4 */
+    .connection h4,
+    .connection p {
+        text-align: center;
+    }
+
+    .img_with_text {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* section 5 */
+    .all {
+        padding: 3rem;
+        gap: 3.5rem;
+        text-align: center;
+    }
+
+    .punja_img {
+        margin-left: 0rem;
+    }
+
+    .section_5 input {
+        width: 20rem;
+        height: 3.5rem;
+    }
+
+    .section_5 button {
+        width: 7rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width: 768px) {
+    body {
+        background: green;
+    }
+
+    .img_with_text {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .connection h4,
+    .connection p {
+        text-align: center;
+    }
+
+    /* section 5 */
+    .all {
+        padding: 1rem;
+    }
+
+    .section_5 input {
+        width: 20rem;
+        height: 3.5rem;
+    }
+
+    .section_5 button {
+        width: 7rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: blue;
+    }
+
+    /* section 1 */
+    .first_div{
+        padding: 5.5rem;
+       }
+
+    /* section 5 */
+    .all {
+        padding: 1rem;
+    }
+
+    .section_5 input {
+        width: 35rem;
+    }
+   
+    /* footer */
+
+    .footer_section_left{
+        padding-right:3.5rem ;
+    }
+    .footer_section_right{
+        padding: 2.0rem 1.5rem;
+    }
+    .input_container > input{
+        width: 30rem;
+        height: 3.5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: orange;
+    }
+    /* section 1 */
+    .first_div{
+     padding: 5.5rem;
+    }
+    /* section 5 */
+    .all {
+        padding: 2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background: pink;
+    }
+
+}
+
+
+/* xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px */
