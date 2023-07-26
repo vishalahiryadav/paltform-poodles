@@ -10,16 +10,16 @@ function LandingPage() {
     <div>
       <div className="container-fluid">
         <div className="row">
-          <div className="first_div col-12 col-md-6">
-            <h1 className="first_div_1">
+          <div className="left_side col-12 col-md-6">
+            <h1 className="left_side_1">
               Let’s Find Homes for Pets Together Join Our Adoption Platform
             </h1>
-            <p className="first_div_2">
+            <p className="left_side_2">
               Pets are our loyal friends, showering us with love and affection.
               Now it’s our turn to help them find loving homes through our pet
               adoption platform.
             </p>
-            <button className="btn first_div_3signup text-white">SignUp</button>
+            <button className="btn left_side_3signup text-white">SignUp</button>
           </div>
           <div className="second_div_img col-12 col-md-6">
             <img src={require("./g10.png")} className="img-fluid" />
@@ -51,7 +51,7 @@ function LandingPage() {
         <h3>
           Why Choose Our Pet Adoption Platform: Connecting NGOs and Adopters
         </h3>
-        <div className="connection row row-cols-3">
+        <div className="connection row row-cols-3 g-0">
           {DataArray2.map((arr) => (
             <DataArray2Call
               key={arr.id}

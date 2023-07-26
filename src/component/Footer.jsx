@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer_end m-0">
-      <div className="footer d-flex">
-        <div className="footer_section_left">
+    <div className="footer_end ">
+      <div className="footer row">
+        <div className="footer_section_left col-12 col-md-6">
           <h1>poodles</h1>
           <p>
             Our mission is to connect homeless pets in India with loving homes.
@@ -12,11 +12,11 @@ function Footer() {
           </p>
           <div className="contact d-flex">
             <p>contact@poodles.in</p>
-            <p>BTH,Jaipur</p>
+            <p className="mx-5">BTH,Jaipur</p>
           </div>
         </div>
 
-        <div className="footer_section_right">
+        <div className="footer_section_right col-12 col-md-6">
           <h4> Got Anything To share ? </h4>
           <div className="input_container">
             <input className="border-0 border rounded"></input>
