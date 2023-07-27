@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer_end ">
-      <div className="footer row">
+      <div className="footer row flex-column-reverse flex-md-row">
         <div className="footer_section_left col-12 col-md-6">
           <h1>poodles</h1>
           <p>

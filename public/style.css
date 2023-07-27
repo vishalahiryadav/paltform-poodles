@@ -3,16 +3,21 @@ html {
   padding: 0;
   font-family: "Montserrat";
   text-align: center;
-  font-size: 10px;
-  vertical-align:center ;
+  font-size: 9.5px;
+  vertical-align: center;
 }
 
 *,
-.btn, h1, h2, h3,h4 {
+.btn,
+h1,
+h2,
+h3,
+h4 {
   font-weight: 400;
   line-height: normal;
   color: #343030;
   font-size: 2.6rem;
+  font-family: "Montserrat";
 }
 
 p {
@@ -20,8 +25,11 @@ p {
 }
 
 /* Header */
+.navbar {
+  border: 2px solid #343030;
+}
 
-.btn {
+.navbar>.btn {
   background: #d3db50;
   padding: 1.3rem 8rem;
 }
@@ -33,7 +41,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  gap: 4.5rem
+  gap: 3.5rem
 }
 
 .left_side_1 {
@@ -61,7 +69,7 @@ p {
   border: 0.1rem solid #3a383b;
 }
 
-.section_3 > h3 {
+.section_3>h3 {
   font-weight: 500;
   margin-bottom: 4.5rem;
 }
@@ -70,9 +78,11 @@ p {
   color: #162a51;
   margin-bottom: 1.5rem;
 }
-.card_box_1{
+
+.card_box_1 {
   padding: 1rem 3rem 1rem 3rem;
 }
+
 /* section-4 */
 
 .section_4 {
@@ -124,12 +134,14 @@ p {
 }
 
 .all {
-  padding: 5.3rem 1rem 4.3rem 16rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
+  padding: 5.3rem 28rem 4.3rem 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
-
+.connect{
+  display: flex;
+}
 .section_5 h2 {
   font-size: 3.2rem;
   font-weight: 700;
@@ -143,7 +155,7 @@ p {
 
 .section_5 button {
   color: #fff;
-  padding:0rem 6rem;
+  padding: 0rem 6rem;
   background-color: #162a51;
   margin-left: 0.5rem;
 }
@@ -181,7 +193,7 @@ p {
   color: #fff;
 }
 
-.contact > p {
+.contact>p {
   color: #fff;
   font-weight: 100;
 }
@@ -199,7 +211,7 @@ p {
 .footer_section_right h4 {
   font-weight: 100;
   margin-bottom: 1.5rem;
-  margin-right: 6.0rem;
+  margin-right: 3.0rem;
   color: #fff;
 }
 
@@ -209,7 +221,7 @@ p {
   gap: 1.5rem;
 }
 
-.input_container > input {
+.input_container>input {
   width: 38.5rem;
   height: 4.5rem;
 }
@@ -233,4 +245,68 @@ p {
   padding-top: 1.4rem;
 
   font-weight: 100;
+}
+
+
+/* Sign Up */
+
+.sign_up_form{
+  padding: 40px 10px;
+}
+.sign_up_img {
+  max-width: 800px;
+  max-height: 800px;
+  max-width:50% ;
+}
+
+.sign_up_right_section {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sign_up_right_section > .input_box{
+  width: 86%;
+}
+input::placeholder {
+  text-align: center;
+}
+.sign_up_right_section>h1 {
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.google_signup_button {
+  font-size: 26px;
+  display: inline-flex;
+  padding: 14px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #F5F5F5;
+  border: 0;
+  width: 70%;
+}
+
+.google_signup_button > svg {
+  margin-right: 10px;
+}
+
+/* input_checkbox */
+
+.checkbox_container{
+align-self: start;
+}
+.input_checkbox{
+  width: 24px;
+  align-items: left !important;
+  margin: 0px 45px 0px 105px;
+}
+
+.create_account_button{
+  width: 79%;
+  padding: 18px 260px;
+  background: #885AC3;
+  border: 0;
+  color: #fff;
 }

@@ -2,12 +2,11 @@ import React from "react";
 function Header() {
   return (
     <div className="container-fluid">
-      <nav className="navbar border border-dlight border-2 p-4 m-4 header">
-        <a className="navbar-brand " href="/">
+      <nav className="navbar p-4 m-4 header">
+        <a className="navbar-brand" href="/">
           <svg
-            
-            width="230"
-            height="60"
+            width="23rem"
+            height="6rem"
             viewBox="0 0 230 60"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
