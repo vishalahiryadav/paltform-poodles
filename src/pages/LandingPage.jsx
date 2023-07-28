@@ -9,7 +9,7 @@ import SignUp from "../component/sign_up";
 function LandingPage() {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div className="section_1 row">
           <div className="left_side col-12 col-md-6">
             <h1 className="left_side_1">
@@ -65,7 +65,7 @@ function LandingPage() {
           ))}
         </div>
       </div>
-      <div className="section_5 m-7 border-0 border rounded">
+      <div className="section_5 m-7 ">
         <div className="all">
           <div className="panja_div d-flex">
             <h2>JOIN OUR NEWSLETTER</h2>

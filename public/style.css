@@ -126,6 +126,7 @@ p {
 /* section-5 */
 
 .section_5 {
+  border-radius: 0.3rem;
   margin: 4.7rem;
   text-align: left;
   display: flex;
