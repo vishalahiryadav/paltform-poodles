@@ -4,9 +4,6 @@
         font-size: 6px;
     }
 
-    body {
-        /* background: turquoise; */
-    }
     /* header */
     .header {
         border: 1px solid black;
@@ -247,13 +244,16 @@
     .section_5 input {
         width: 42rem;
     }
+    .sign_up_img {
+        max-width: 97%;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     html {
-        font-size: 8.5px;
+        font-size: 8.2px;
     }
 
     body {
@@ -280,7 +280,7 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     body {
-        background: darkorchid;
+        background: white;
     }
 
 }
@@ -290,7 +290,9 @@
     html {
         font-size: 10px;
     }
-
+body {
+        background: rgb(43, 172, 150);
+    }
     /* section_1 */
     .left_side {
         padding: 11.5rem 10rem 6rem 7rem;
@@ -319,4 +321,5 @@
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px */
+  xxl: 1400px 
+  xxxl: 1400px <*/

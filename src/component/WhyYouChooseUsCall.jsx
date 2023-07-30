@@ -1,6 +1,6 @@
 import React from 'react'
 
-function DataArray2Call(props) {
+function WhyYouChooseUsCall(props) {
   return <div className="img_with_text col-12 col-md-6 col-lg-4">
   <div>{props.img}</div>
   <div>
@@ -9,4 +9,4 @@ function DataArray2Call(props) {
   </div>
 }
 
-export default DataArray2Call;
+export default WhyYouChooseUsCall;

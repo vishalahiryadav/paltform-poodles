@@ -1,10 +1,9 @@
 import React from "react";
-import DataArray1Call from "../component/DataArray1Call";
-import DataArray2Call from "../component/DataArray2Call";
-import DataArray1 from "../DataArray/DataArray1";
-import DataArray2 from "../DataArray/DataArray2";
-import Footer from "../component/Footer";
-import SignUp from "../component/sign_up";
+import {Link} from "react-router-dom";
+import WhyYouChooseUsCall  from "../Component/WhyYouChooseUsCall"
+import PetAdoptionMadeEasyCall from "../Component/PetAdoptionMadeEasyCall"
+import {PetAdoptionMadeEasy, WhyYouChooseUs} from "../PetAdoptionActivitiesArray/PetAdoptionDataArray";
+import Footer from "../Component/Footer";
 
 function LandingPage() {
   return (
@@ -21,11 +20,11 @@ function LandingPage() {
               adoption platform.
             </p>
             <a href="../component/sign_up.jsx">
-            <button className="btn left_side_3signup text-white">SignUp</button>
+           <Link to="/registration"> <button className="btn left_side_3signup text-white">SignUp</button></Link>
             </a>
           </div>
           <div className="second_div_img col-12 col-md-6">
-            <img src={require("./g10.svg").default} className="img-fluid" />
+            <img src="./Images/g10.svg" className="img-fluid" />
           </div>
         </div>
       </div>
@@ -40,8 +39,8 @@ function LandingPage() {
           Pet Adoption Made Easy: How Our Platform Connects NGOs and Adopters.
         </h3>
         <div className="adoption row">
-          {DataArray1.map((arr) => (
-            <DataArray1Call
+          {PetAdoptionMadeEasy.map((arr) => (
+            <PetAdoptionMadeEasyCall
               key={arr.id}
               img={arr.img}
               heading={arr.heading}
@@ -55,8 +54,8 @@ function LandingPage() {
           Why Choose Our Pet Adoption Platform: Connecting NGOs and Adopters
         </h3>
         <div className="connection row row-cols-3 g-0">
-          {DataArray2.map((arr) => (
-            <DataArray2Call
+          {WhyYouChooseUs.map((arr) => (
+            <WhyYouChooseUsCall
               key={arr.id}
               img={arr.img}
               heading={arr.heading}
@@ -88,7 +87,6 @@ function LandingPage() {
           </div>
         </div>
         <Footer />
-        {/* <SignUp /> */}
       </div>
       );
 }

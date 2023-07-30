@@ -1,6 +1,6 @@
 import React from "react";
 
-function DataArray1Call(props) {
+function PetAdoptionMadeEasyCall(props) {
     return <div className="card_box_1 col-12 col-md-4">
       {props.img}
       <h3>{props.heading}</h3>
@@ -9,7 +9,7 @@ function DataArray1Call(props) {
 
 }
 
-export default DataArray1Call;
+export default PetAdoptionMadeEasyCall;
 
 
 

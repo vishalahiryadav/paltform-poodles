@@ -19,16 +19,14 @@ h4 {
   font-size: 2.6rem;
   font-family: "Montserrat";
 }
-
 p {
   font-size: 2rem;
 }
 
 /* Header */
 .navbar {
-  border: 2px solid #343030;
+  border: 0.2rem solid #343030;
 }
-
 .navbar>.btn {
   background: #d3db50;
   padding: 1.3rem 8rem;
@@ -43,11 +41,9 @@ p {
   text-align: left;
   gap: 3.5rem
 }
-
 .left_side_1 {
   font-size: 3rem;
 }
-
 .left_side_3signup {
   padding: 1rem 6rem;
   max-width: 27.5rem;
@@ -68,17 +64,14 @@ p {
   padding: 2.6rem 3.9rem;
   border: 0.1rem solid #3a383b;
 }
-
 .section_3>h3 {
   font-weight: 500;
   margin-bottom: 4.5rem;
 }
-
 .adoption h3 {
   color: #162a51;
   margin-bottom: 1.5rem;
 }
-
 .card_box_1 {
   padding: 1rem 3rem 1rem 3rem;
 }
@@ -88,12 +81,10 @@ p {
 .section_4 {
   padding: 2.7rem 2.1rem;
 }
-
 .section_4 h3 {
   font-weight: 500;
   margin-bottom: 4.5rem;
 }
-
 .motive {
   border-radius: 8.4rem;
   border: 0.1rem solid #343030;
@@ -107,16 +98,13 @@ p {
   margin-right: 2.5rem;
   margin-top: 2.5rem;
 }
-
 .img_with_text {
   display: flex;
 }
-
 .connection h4 {
   text-align: left;
   margin-bottom: 1rem;
 }
-
 .connection p {
   max-width: 46rem;
   text-align: left;
@@ -133,7 +121,6 @@ p {
   flex-direction: column;
   background-color: #d3db50;
 }
-
 .all {
   padding: 5.3rem 28rem 4.3rem 16rem;
   display: flex;
@@ -147,13 +134,11 @@ p {
   font-size: 3.2rem;
   font-weight: 700;
 }
-
 .section_5 input {
   width: 45.8rem;
   height: 4.6rem;
   padding: 1rem;
 }
-
 .section_5 button {
   color: #fff;
   padding: 0rem 6rem;
@@ -161,13 +146,7 @@ p {
   margin-left: 0.5rem;
 }
 
-/* Footer */
-/* .footer_img > img{
-    position: absolute;
-    z-index: -1;
-    right: 0px;
-    width: 100%;
-} */
+/* footer */
 
 .footer {
   background-color: #162a51;
@@ -175,7 +154,6 @@ p {
   color: #fff;
   margin: 0rem;
 }
-
 .footer_section_left {
   text-align: left;
   padding: 2rem 19rem 1rem 3.5rem;
@@ -184,21 +162,17 @@ p {
   gap: 4rem;
   color: #fff;
 }
-
 .footer_section_left h1 {
   font-weight: 600;
   color: #fff;
 }
-
 .footer_section_left p {
   color: #fff;
 }
-
-.contact>p {
+.contact>strong {
   color: #fff;
   font-weight: 100;
 }
-
 .footer_section_right {
   align-items: end;
   text-align: center;
@@ -206,27 +180,22 @@ p {
   flex-direction: column;
   padding: 3.5rem 1.5rem 0rem 0rem;
   gap: 2rem;
-
 }
-
 .footer_section_right h4 {
   font-weight: 100;
   margin-bottom: 1.5rem;
   margin-right: 3.0rem;
   color: #fff;
 }
-
 .input_container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-
 .input_container>input {
   width: 38.5rem;
   height: 4.5rem;
 }
-
 .footer_section_right button {
   background-color: #d3db50;
   color: #fff;
@@ -238,76 +207,81 @@ p {
   align-items: center;
   padding: 0.5rem;
 }
-
 .copyright {
   color: #fff;
   background-color: #162a51;
   font-size: 1.6rem;
   padding-top: 1.4rem;
-
   font-weight: 100;
 }
 
 
-/* Sign Up */
+/* Sign Up NGO*/
 
 .sign_up_form{
-  padding: 40px 10px;
+  margin:2rem 4rem;
+}
+.left_img_container{
+  max-width: 50%;
 }
 .sign_up_img {
-  max-width: 800px;
-  max-height: 800px;
-  max-width:50% ;
+  width:87%;
 }
-
 .sign_up_right_section {
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 1.8rem;
 }
-
 .sign_up_right_section > .input_box{
-  width: 86%;
+  width: 75%;
+  font-size: 2.2rem;
 }
 input::placeholder {
   text-align: center;
+  font-size: 1.8rem;
+
 }
 .sign_up_right_section>h1 {
   font-weight: 600;
-  font-size: 44px;
+  font-size: 3.4rem;
+  align-self: start;
+  margin-left: 8.5rem;
 }
-
-.google_signup_button {
-  font-size: 26px;
-  display: inline-flex;
-  padding: 14px 0px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  background: #F5F5F5;
-  border: 0;
-  width: 70%;
-}
-
-.google_signup_button > svg {
-  margin-right: 10px;
+.sign_up_right_section  .img-fluid{
+  max-width: 67%;
 }
 
 /* input_checkbox */
 
-.checkbox_container{
-align-self: start;
-}
 .input_checkbox{
-  width: 24px;
-  align-items: left !important;
-  margin: 0px 45px 0px 105px;
+  margin: 0rem 1.5rem 0rem 0rem;
 }
-
+.term{
+  font-size: 1.2rem;
+}
+/* sign up button */
 .create_account_button{
-  width: 79%;
-  padding: 18px 260px;
-  background: #885AC3;
+  width: 70%;
+  padding: 0.8rem 7rem;
+  background: #D3DB50;
   border: 0;
-  color: #fff;
+  font-size: 2rem;
+}
+/* USERS sign up */
+
+
+.google_signup_button > svg {
+  margin-right: 1rem;
+}
+.google_signup_button {
+  font-size: 2.6rem;
+  display: inline-flex;
+  padding: 1.4rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #F5F5F5;
+  border: 0;
+  width: 70%;
 }
