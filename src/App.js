@@ -1,8 +1,9 @@
 import React from "react"
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import { HashRouter as Router,Routes,Route } from "react-router-dom";
 import Header from "./Component/Header";
 import LandingPage from "./Pages/LandingPage";
 import RegistrationPage from "./Pages/RegistrationPage";
+import Footer from "./Component/Footer";
 function App() {
   return (
     
@@ -14,6 +15,7 @@ function App() {
    <Route path="/registration" element={ <RegistrationPage />}></Route>
 
    </Routes>
+    <Footer />
    </Router>
     </div>
            
