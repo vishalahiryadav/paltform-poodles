@@ -8,7 +8,7 @@ import Footer from "../Component/Footer";
 function LandingPage() {
   return (
     <div>
-      <div className="container-fluid ">
+      <div className="container-fluid mt-5">
         <div className="section_1 row">
           <div className="left_side col-12 col-md-6">
             <h1 className="left_side_1">

@@ -25,11 +25,17 @@ p {
 
 /* Header */
 .navbar {
-  border: 0.2rem solid #343030;
+  padding: 1% 1.5%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  overflow: hidden;
 }
-.navbar>.btn {
+
+.navbar .btn {
   background: #d3db50;
-  padding: 1.3rem 8rem;
+  padding: 1rem 8rem;
 }
 
 /* section_1 */
@@ -284,4 +290,222 @@ input::placeholder {
   background: #F5F5F5;
   border: 0;
   width: 70%;
+}
+
+
+/* DASHBOARD */
+
+
+/* Header */
+
+
+/* Sidebar */
+.sidebar {
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 9rem;
+  left: 0;
+  display: flex;
+  padding: 1% 2.5%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.8rem;
+  height: 100%;
+  background-color: #fff;   
+  overflow-x: hidden;
+
+}
+
+.sidebar button {
+  font-weight: 500;
+}
+
+.sidebar_point button {
+
+  padding: 0;
+  background-color: #fff;
+  border: none;
+}
+/* dashboard */
+
+.main_area {
+  /* height: 100%; */
+
+  width: 82%;
+  background: #F2EDFB;
+  margin-left: 17%;
+  padding:2% 1%;
+  position:absolute;
+  z-index: -1;
+  top: 10rem;
+}
+.address{
+  width: 45%;
+  margin-right: 4%;
+}
+.address h3 {
+  font-weight: 700;
+  text-align: left;
+}
+
+.address_box {
+  /* width: 90%; */
+  height: 21rem;
+  padding: 2rem 7rem;
+  background: #162A51;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.address_box p {
+  color: #FFF;
+}
+.group_of_long_tab{
+  width: 47%;
+}
+.long_tab {
+  width: 100%;
+  height: 5.0rem;
+  padding: 1rem;
+  background-color: #fff;
+  margin: 0;
+}
+.main_area_bottom{
+  width: 82%;
+  background: #F2EDFB;
+  margin-left: 17%;
+
+  position:absolute;
+  z-index: -1;
+  top: 40.6rem;
+}
+
+.topic_heading {
+  text-align: left;
+}
+.quick_actions_button{
+  margin: 0% 8% 0% 1%;
+}
+.short_tab {
+  background-color: #fff;
+  padding: 1rem 3rem;
+ cursor: pointer;
+ margin: 2rem 0rem;
+}
+.ngoPets{
+  text-align: left;
+  padding: 0rem 7rem 0rem 2rem;
+}
+.adopted, .pending_adoption, .ngoPets > button{
+  background-color: #fff;
+  width: 92%;
+  height: 12rem;
+  margin: 0 auto;
+}
+/* NGO PETS */
+
+.ngoPets > .short_tab{
+  background-color: #654;
+  width: 88%;
+  border: none;
+  margin: 1rem;
+  height: 5.0rem;
+  padding: 1rem;
+
+}
+table{
+  width: 90%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+th{
+  color: #fff;
+  background-color: #162A51;
+}
+td{
+
+}
+tr:nth-child(even) {
+  background-color: #e7dbff;
+}
+
+.pagination_container button{
+background-color: #fff;
+padding: 0.5rem 1.5rem;
+border-radius: 1rem;
+margin: 1rem;
+}
+button :hover {
+  background-color: yellow;
+}
+/* Booking */
+.contact_box{
+
+}
+.contact_us_button{
+  width: 78%;
+padding: 1.5rem 1rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+background-color: #fff;
+}
+
+.ngo_discription{
+display: flex;
+width: 75%;
+height: 12rem;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: none;
+background-color: #fff;
+}
+textarea::placeholder{
+text-align: center;
+}
+.a{
+  display: flex;
+width: 42rem;
+height: 5rem;
+padding: 1rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: none;
+background: #FFF;
+margin: 3rem;
+
+}
+.b{
+  margin: 3rem;
+  display: flex;
+width: 20rem;
+height: 5rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: none;
+background-color:#162A51;
+}
+.Adoption_request h2,.Pet-id h2{
+  padding: 2rem 0rem 1rem 0rem;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+.Pet_details{
+  text-align: left;
+}
+.note{
+  font-size: 1.2rem;
 }

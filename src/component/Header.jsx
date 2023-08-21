@@ -1,8 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom";
 function Header() {
   return (
-    <div className="container-fluid">
-      <nav className="navbar p-4 m-4 header">
+    <div className="">
+      <nav className="navbar">
         <a className="navbar-brand" href="/">
           <svg
             width="23rem"
@@ -93,7 +94,8 @@ function Header() {
             />
           </svg>
         </a>
-        <button className="btn text-white">Login</button>
+        <Link to="/Dashboard"> <div className="btn text-white">login</div></Link>
+
       </nav>
     </div>
   );
